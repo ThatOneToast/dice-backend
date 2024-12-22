@@ -6,7 +6,7 @@ use std::collections::HashMap;
 use std::io::Read;
 use std::io::Write;
 use std::net::TcpStream;
-use std::sync::{Arc, Mutex, RwLock};
+use std::sync::{Arc, RwLock};
 use tnet::packet::NetWrapperPacket;
 use tnet::prelude::tlog::prelude::*;
 use tnet::prelude::*;
